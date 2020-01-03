@@ -1,22 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello welcome to Bitebody.xyz! :)
-        </p>
-        <br/>
-        <p style={{fontSize: "10px"}}>
-          hi bryan was here from the dev version of this site
-        </p>
-      </header>
-    </div>
-  );
+import Navbar from './components/Navbar'
+import Landing from './components/Landing'
+import FourOhFour from './components/404'
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Landing} />
+
+            <Route path="*" component={FourOhFour} />
+            <Redirect from="*" to="/404" />
+          </Switch>
+
+        </div>
+      </Router>
+    )
+  }
 }
 
-export default App;
+export default App
