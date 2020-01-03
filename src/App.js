@@ -12,7 +12,7 @@ function App() {
         </p>
         <br/>
         <p style={{fontSize: "10px"}}>
-          hi bryan was here
+          hi bryan was here from the dev version of this site
         </p>
       </header>
     </div>
