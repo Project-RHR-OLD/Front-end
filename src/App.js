@@ -8,16 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello welcome to Bitebody.io! :) - Bryan
+          Hello welcome to Bitebody.xyz! :)
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <br/>
+        <p style={{fontSize: "10px"}}>
+          hi bryan was here
+        </p>
       </header>
     </div>
   );
