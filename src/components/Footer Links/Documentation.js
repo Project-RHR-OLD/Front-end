@@ -1,4 +1,4 @@
-import React, { Component, PureComponent } from 'react'
+import React, { Component } from 'react'
 import pdf from '../../static/documents/Sprints.pdf'
 
 
@@ -8,12 +8,7 @@ class Docu extends Component {
   
 
   render() {
-    
     return (
-      
-        
-      
-          
         <div className="container">
           
           <br/><br/>
@@ -30,16 +25,9 @@ class Docu extends Component {
           <hr/>
           <a href={pdf} >Documentation PDF</a>
           
-
-          
-
-          
           <br/><br/><br/><br/><br/><br/>
         </div>
         
-        
-        
-       
     )
   }
 }
