@@ -17,7 +17,7 @@ class FooterArea extends Component {
                 items: [
                     {
                         title: 'About VT',
-                        url: 'about',
+                        url: '/about',
                     },
                     {
                         title: 'Meet the Team',
