@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import bryLogo from '../../static/images/rsz_bryr.jpg'
-import davLogo from '../../static/images/rsz_Dave.jpg'
-import vtLogo from '../../static/images/rsz_Logo.jpg'
-import clay from '../../static/images/rsz_Clay.jpg'
-import Hector from '../../static/images/rsz_Hector.jpg'
-import Brandon from '../../static/images/rsz_Brandon.jpg'
-import Card from '../Cards/CardUi'
+import bryLogo from '../static/images/rsz_bryr.jpg'
+import davLogo from '../static/images/rsz_Dave.jpg'
+import vtLogo from '../static/images/rsz_Logo.jpg'
+import clay from '../static/images/rsz_Clay.jpg'
+import Hector from '../static/images/rsz_Hector.jpg'
+import Brandon from '../static/images/rsz_Brandon.jpg'
+import Card from './Cards/CardUi'
 
 class Team extends Component {
 
