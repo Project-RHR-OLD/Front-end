@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import vtLogo from '../../static/images/rsz_Logo.jpg'
-import Card from '../Cards/CardUi'
+import vtLogo from '../static/images/rsz_Logo.jpg'
+import Card from './Cards/CardUi'
 
 
 class Contact extends Component {
