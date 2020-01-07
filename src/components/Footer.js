@@ -19,17 +19,17 @@ class FooterArea extends Component {
                     {
                         title: 'About VT',
                         url: 'about',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'a',
                     },
                     {
                         title: 'Meet the Team',
                         url: 'team',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'span',
                     },
                     {
                         title: 'Documentation',
                         url: 'documentation',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'Link',
                     },
                 ]
             },
@@ -39,17 +39,18 @@ class FooterArea extends Component {
                     {
                         title: 'Contact Us',
                         url: 'contact',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'Link',
+                        openExternal: true,
                     },
                     {
                         title: 'FAQ',
                         url: 'faq',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'Link',
                     },
                     {
                         title: 'Accessibility',
                         url: 'a11y',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'Link',
                     },
                 ]
             },
@@ -59,17 +60,17 @@ class FooterArea extends Component {
                     {
                         title: 'Terms of Service',
                         url: 'tos',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'Link',
                     },
                     {
                         title: 'Privacy',
                         url: 'privacy',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'Link',
                     },
                     {
                         title: 'Cookies',
                         url: 'cookies',
-                        LinkComponent: 'Link'
+                        LinkComponent: 'Link',
                     },
                 ]
             },
