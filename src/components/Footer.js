@@ -18,14 +18,17 @@ class FooterArea extends Component {
                     {
                         title: 'About VT',
                         url: 'about',
+                        LinkComponent: 'Link'
                     },
                     {
                         title: 'Meet the Team',
                         url: 'team',
+                        LinkComponent: 'Link'
                     },
                     {
                         title: 'Documentation',
                         url: 'documentation',
+                        LinkComponent: 'Link'
                     },
                 ]
             },
@@ -35,14 +38,17 @@ class FooterArea extends Component {
                     {
                         title: 'Contact Us',
                         url: 'contact',
+                        LinkComponent: 'Link'
                     },
                     {
                         title: 'FAQ',
                         url: 'faq',
+                        LinkComponent: 'Link'
                     },
                     {
                         title: 'Accessibility',
                         url: 'a11y',
+                        LinkComponent: 'Link'
                     },
                 ]
             },
@@ -52,14 +58,17 @@ class FooterArea extends Component {
                     {
                         title: 'Terms of Service',
                         url: 'tos',
+                        LinkComponent: 'Link'
                     },
                     {
                         title: 'Privacy',
                         url: 'privacy',
+                        LinkComponent: 'Link'
                     },
                     {
                         title: 'Cookies',
                         url: 'cookies',
+                        LinkComponent: 'Link'
                     },
                 ]
             },
