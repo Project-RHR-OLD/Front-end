@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link, withRouter } from 'react-router-dom'
 import Footer from 'rc-footer'
 
 import 'rc-footer/assets/index.css'
